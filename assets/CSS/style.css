@@ -191,6 +191,10 @@ h5 span {
         width: 50vw;
     }
 
+    .container {
+        padding-left: 25%;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -232,7 +236,7 @@ h5 span {
     .home-text h5 {
         padding-top: 250%;
         font-size: 28px;
-        text-align: left;
+        text-align: center;
         justify-content: center;
     }
 
@@ -243,7 +247,7 @@ h5 span {
 
 
     .fixed-text img {
-        max-width: 125%;
+        max-width: 130%;
         height: 70vh;
     }
 
