@@ -1,24 +1,15 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const imgBoxes = document.querySelectorAll('.img-box');
+var btn = document.querySelector("#back-to-top");
 
-    imgBoxes.forEach((imgBox) => {
-        imgBox.addEventListener('click', () => {
-            removeActiveClasses();
-            imgBox.classList.add('active');
-        });
-    });
-
-    function removeActiveClasses() {
-        imgBoxes.forEach((imgBox) => {
-            imgBox.classList.remove('active');
-        });
-    }
+btn.addEventListener("click", function() {
+  window.scrollTo(0,0);
 });
 
-window.sr = ScrollReveal({ reset: true });
-
-sr.reveal('.area-1', {
-    rotate: { x: 20 },
-    delay: 200,
-    duration: 2000
-});
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block"
+  }
+}
