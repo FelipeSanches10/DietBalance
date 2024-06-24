@@ -53,53 +53,31 @@ body{
 .card-container {
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-gap:30px;
     position: relative;
     text-align: center;
     padding: 70px;
     margin-left: 9%;
     
+    
 }
-
-.card-container2{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap:30px;
-    position: relative;
-    text-align: center;
-    padding: 70px;
-    margin-left: 9%;
-}
-
 
 #first-container{
     background-color: #F5EAD3;
-    width: 55%;
+    width: 66%;
     border-radius: 50px;
+   
 }       
 p{
     color: #ffffff;
     font-size: 20px;
-    padding-left: 8px;
-    padding-right: 30px;
-}
-.invisivel {
-    color: #193B3A;
-}
-.add{
-    background-color: #163130;
-    border-radius: 5px;
-    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15%;
 }
 
-#desconto{
-    font-size: 15px;
-    padding-right: 10px;
-}
 #h1primeiro {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -107,119 +85,35 @@ p{
     background-color: #193B3A;
     border-radius: 40px;
     margin-left: 25%;
-    margin-right: 27%;
+    margin-right: 26%;
+    box-shadow: 2px 2px 10px #193B3A;
+
+    
 }
-#h1segundo {
+.titulo{
     text-align: center;
     color: rgb(255, 255, 255);
     padding:5px;
     background-color: #193B3A;
     border-radius: 40px;
-    margin-left: 25%;
-    margin-right: 27%;
+    padding-top: 30px;
 }
-#text-h1{
-    text-align: center;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-#valor{
-    text-align: center;
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-   
-}
+
 .card{
     background-color: #193B3A;
     border-radius: 20px;
     text-align: center; 
-    height: 440px;
-    width: 300px;
+    height: 850px;
+    width: 900px;
     justify-content: center;
-}
-
-.card-container h2{
-    color: #ffffff;
-    font-size: 18px;
-    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px #193B3A;
 }
 .card-content{
     color: #222;
     
 }
-img{
-    width: 100%;
-    border: solid 1px #193B3A;
-    border-radius: 20px;
-}
-.li{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-align: left;
-    padding-left: 20px;
-}
-#nutri{
-    padding-left: 40px;
-    color: #ffffff;
-    font-size: 28px;
-    padding-left: 14px;
-    padding-right: 30px;
-    padding-top: 20px;
-}
-#nutri2{
-    padding-left: 40px;
-    color: #ffffff;
-    font-size: 28px;
-    padding-right: 30px;
-    padding-top: 28px;
-}
-#nutri3{
-    padding-left: 40px;
-    color: #ffffff;
-    font-size: 28px;
-    padding-left: 14px;
-    padding-right: 30px;
-    padding-top: 20px;
-}
-#nutri4{
-    padding-left: 40px;
-    color: #ffffff;
-    font-size: 28px;
-    padding-left: 14px;
-    padding-right: 30px;
-    padding-top: 20px;
-}
-.bnt{
-    padding-bottom: 10px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-.btn{
-    
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #26BA2C;
-    border-radius: 7px;
-    border: none;
-    color: white;
-    font-size: 17px;
-}
-.btn:hover{
-    border: 1px solid #fa5e00;
-    background: #fff;
-    color: #fa5e00;
- 
-}
 @media screen and (max-width: 1500px) {
-    .card-container,
-    .card-container2 {
+    .card-container{
         grid-template-columns: 1fr;
         grid-template-rows: none;
         padding: 20px;
@@ -236,18 +130,13 @@ img{
         padding: 10px;
     }
 
-    #h1primeiro,
-    #h1segundo {
+    #h1primeiro {
         margin-left: 10%;
         margin-right: 10%;
     }
 
     p {
         font-size: 16px;
-    }
-
-    #valor {
-        font-size: 30px;
     }
 }
 
@@ -267,9 +156,8 @@ img{
         padding-right: 30px;
     }
 
-    #h1primeiro,
-    #h1segundo {
-        margin-left: 41px;
+    #h1primeiro {
+        margin-left: 46px;
         margin-right: 14px;
         font-size: 14px;
         padding-top: 13px;
@@ -277,29 +165,16 @@ img{
         padding-right: 5px;
         padding-bottom: 10px;
     }
-
     .card {
         width: 100%;
     }
 
     p {
         font-size: 20px;
-        padding-right: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
     }
-
-    #nutri, #nutri2, #nutri3, #nutri4 {
-        font-size: 28px;
-        padding-left: 25px;
-    }
-
-    .btn {
-        font-size: 17px;
-    }
-
-    #valor {
-        font-size: 50px;
-    }
-
     li {
         font-size: 20px;
         padding-bottom: 8px;
@@ -325,8 +200,7 @@ img{
         padding: 5px;
     }
 
-    #h1primeiro,
-    #h1segundo {
+    #h1primeiro{
         margin: 5px;
         font-size: 12px;
         padding: 5px;
@@ -341,20 +215,6 @@ img{
     p {
         font-size: 12px;
         padding-right: 5px;
-    }
-
-    #nutri, #nutri2, #nutri3, #nutri4 {
-        font-size: 12px;
-        padding-left: 5px;
-    }
-
-    .btn {
-        font-size: 12px;
-        padding: 5px 10px;
-    }
-
-    #valor {
-        font-size: 16px;
     }
     .mobile-menu {
         display: block;
