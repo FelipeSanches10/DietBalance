@@ -8,7 +8,7 @@
 
 body{
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #296260;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +101,7 @@ body{
     background-color: #193B3A;
     width: 55%;
     border-radius: 50px;
+    box-shadow: 10px 10px 20px #193B3A;
 }       
 p{
     color: #777989;
@@ -133,6 +134,7 @@ p{
     border-radius: 20px;
     text-align: center;
     padding: 8px;
+    
 }
 .card img{
     max-width: 100%;
@@ -207,38 +209,6 @@ img:hover {
         width: 90%; 
         padding-bottom: 12px;
         padding-top: 60px;
-        
-    }
-    #h1primeiro{
-        padding-top: 30px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 10px;
-    }
-    .h1 {
-        font-size: 17px;
-        padding-bottom: 40px;
-    }
-    .card{
-        padding: 8px;
-    }
-    .mobile-menu {
-        display: block;
-    }
-
-}
-@media screen and (max-width: 280px) {
-    .card-container,
-    .card-container2,
-    .card-container3,
-    .card-container4 {
-        grid-template-columns: 1fr;
-        padding: 10px; 
-        width: 90%;
-    }
-    #first-container {
-        width: 90%; 
-        padding-bottom: 12px;
         
     }
     #h1primeiro{
