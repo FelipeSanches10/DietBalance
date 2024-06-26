@@ -20,6 +20,7 @@ html, body {
     background: url(../IMG/quadro.jpg) no-repeat;
     background-size: cover;
     height: auto;
+    
 }
 
 .container {
@@ -41,14 +42,13 @@ html, body {
 }
 
 .logo {
-    color: #fa5e00;
-    background-size: contain;
-    width: 150px;
-    height: 80px;
+    width: 50%;
+    height: 19%;
     position: relative;
-    z-index: 9;
+    top: 0;
+    right: 480px;
+    padding-top: 48px;
 }
-
 
 .text-gd {
     font-size: 64px;
