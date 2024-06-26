@@ -9,7 +9,7 @@
 body{
     min-height: 100vh;
     background-color: #296260;
-    display: flex;
+   
     justify-content: center;
     align-items: center;
     padding-top: 40px;
@@ -74,7 +74,12 @@ body{
     padding: 70px;
     margin-left: 9%;
 }
-
+main{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
 
 #first-container{
     background-color: #296260;
@@ -219,6 +224,57 @@ img{
     background: #fff;
     color: #26BA2C;
 }
+footer {
+    background-color: #193B3A;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+    padding-left: 240px;
+}
+#footerh3{
+    padding-left: 18px;
+}
+.footer-column h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#footerh3pt2{
+    padding-left: 18px;
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    background-color: #193B3A;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 1500px) {
     .card-container,
     .card-container2 {
@@ -310,7 +366,23 @@ img{
         display: block;
     }
 }
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .footer-column {
+        flex: 1 0 100%;
+        max-width: none;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .footer-column h3 {
+        padding-left: 0; /* Remover o padding esquerdo nos títulos */
+    }
+}
 
 @media screen and (max-width: 280px) {
     .card-container,

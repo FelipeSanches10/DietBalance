@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 html, body {
@@ -387,7 +388,9 @@ body::-webkit-scrollbar-thumb {
 #menu .box .text-md {
     font-size: 24px;
 }
-
+#menu{
+    padding-bottom: 80px;
+}
 .btn-card {
     margin-top: 10px;
     font-weight: 600;
@@ -418,82 +421,72 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-#footer {
-    background-color: #333;
+footer {
+    background-color: #193B3A;
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+    
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    width: 100%;
-    max-width: 1200px;
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+    padding-left: 240px;
 }
-
-.footer-logo img {
-    width: 150px;
+#footerh3{
+    padding-left: 18px;
 }
-
-.footer-links ul {
-    list-style: none;
+.footer-column h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#footerh3pt2{
+    padding-left: 18px;
+}
+.footer-column ul {
+    list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
-
-.footer-links ul li {
-    display: inline;
-}
-
-.footer-links ul li a {
-    color: #fff;
     text-decoration: none;
 }
 
-.footer-links ul li a:hover {
-    text-decoration: underline;
-}
-
-.footer-social {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
-
-.footer-social a {
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.footer-social a:hover {
-    color: #f39c12;
+.footer-column ul li {
+    margin-bottom: 8px;
 }
 
 .footer-bottom {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
+    background-color: #193B3A;
+    padding: 10px 0;
 }
 
-@media screen and (max-width: 740px) {
+.footer-bottom p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
     .footer-container {
-        justify-content: space-evenly;
         flex-direction: column;
-        height: auto; /* Mudei de 150px para auto */
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: 1 0 100%;
+        max-width: none;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .footer-column h3 {
+        padding-left: 0; /* Remover o padding esquerdo nos títulos */
     }
 }
 
