@@ -70,6 +70,13 @@ document.querySelectorAll('.btn').forEach(button => {
   });
 });
 
+window.effect = ScrollReveal({reset:true})
+effect.reveal('.efect-reveal', 
+  {
+    duration: 3000, 
+    distance:'60px'
+  })
+
 
 
 

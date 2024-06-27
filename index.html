@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diet Balance</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
     <header class="max-width bg" id="home">
         <div class="container">
-            <div class="menu">
+            <div class="menu efect-reveal">
                 <div><a href="index.html"><img class="logo" src="./assets/IMG/Design sem nome.png" alt=""></a></div>
                 <div class="desktop-menu">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="./index2.html">Cardápio</a></li>
-                    <li><a href="./index3.html">Planos</a></li>
-                    <li><a href="./index4.html">Sobre</a></li>
-                </ul>
-            </div>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="./index2.html">Cardápio</a></li>
+                        <li><a href="./index3.html">Planos</a></li>
+                        <li><a href="./index4.html">Sobre</a></li>
+                    </ul>
+                </div>
 
-            <div class="mobile-menu" onclick="myFunction()">
-                <i class="fa-solid fa-bars"></i>
-                <ul id="myLinks">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./index2.html">Cardápio</a></li>
-                    <li><a href="./index3.html">Planos</a></li>
-                    <li><a href="./index4.html">Sobre</a></li>
-                </ul>
+                <div class="mobile-menu" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./index2.html">Cardápio</a></li>
+                        <li><a href="./index3.html">Planos</a></li>
+                        <li><a href="./index4.html">Sobre</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="call">
-            <div class="left">
-                <img src="./assets/IMG/pngwing.com.png" alt="">
+            <div class="call">
+                <div class="left">
+                    <img src="./assets/IMG/pngwing.com.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="color-laranja text-gd" style="font-size: 64px;">Diet Ballance</h1>
+                    <h2 class="color-cinza-1 text-md">Equilibrio em cada refeição, saúde para toda a vida</h2>
+                    <p class="text-pq">Os melhores alimentos para sua vida mais saúdavel com os melhores preços</p>
+                    <a href="index2.html"><button id="menu">Ver menu</button></a>
+                </div>
             </div>
-            <div class="right">
-                <h1 class="color-laranja text-gd" style="font-size: 64px;">Diet Ballance</h1>
-                <h2 class="color-cinza-1 text-md">Equilibrio em cada refeição, saúde para toda a vida</h2>
-                <p class="text-pq">Os melhores alimentos para sua vida mais saúdavel com os melhores preços</p>
-                <a href="index2.html"><button id="menu">Ver menu</button></a>
-            </div>
-        </div>
         </div>
         <button id="back-to-top">^</button>
     </header>
 
-    <section class="max-width" id="about">
+    <section class="max-width efect-reveal" id="about">
         <div class="container">
             <div class="call">
                 <div class="left">
                     <span class="text-title color-laranja">Aqui nós</span>
-                    <h2 class="text-md color-cinza-1">Oferecemos a você marmitas saúdaveis com preços que cabem no seu bolso</h2>
+                    <h2 class="text-md color-cinza-1">Oferecemos a você marmitas saúdaveis com preços que cabem no seu
+                        bolso</h2>
                     <a href="index3.html"><button>Saiba Mais</button></a>
                 </div>
                 <div class="right">
@@ -61,7 +65,7 @@
         </div>
     </section>
 
-    <section class="max-width bg" id="service">
+    <section class="max-width bg efect-reveal" id="service">
         <div class="container">
             <div class="content">
                 <div class="titulo">
@@ -89,7 +93,7 @@
         </div>
     </section>
 
-    <section class="max-width bg" id="menu">
+    <section class="max-width bg efect-reveal" id="menu">
         <div class="container">
             <div class="content">
                 <div class="titulo">
@@ -98,18 +102,20 @@
                 </div>
                 <div class="down">
                     <div class="box">
-                    <img src="./assets/IMG/comida1.avif" alt="">
-                    <h2 class="color-laranja">Sobrecoxa</h2>
-                    <p class="text-md">com ervilha, purê de batata e cenoura</p>
-                    <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span class="span-price" data-id="1" >R$15,90</span> 
-                    <span class="g-price">250g</span>
-                    <button class="btn-card" data-price="15.90" data-id="1">Adicionar</button>
-                </div>
+                        <img src="./assets/IMG/comida1.avif" alt="">
+                        <h2 class="color-laranja">Sobrecoxa</h2>
+                        <p class="text-md">com ervilha, purê de batata e cenoura</p>
+                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span
+                            class="span-price" data-id="1">R$15,90</span>
+                        <span class="g-price">250g</span>
+                        <button class="btn-card" data-price="15.90" data-id="1">Adicionar</button>
+                    </div>
                     <div class="box">
                         <img src="./assets/IMG/comida2.avif" alt="">
                         <h2 class="color-laranja">Frango assado</h2>
                         <p class="text-md">batata doce e brócolis no vapor</p>
-                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span class="span-price" data-id="2" >R$15,90</span> 
+                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span
+                            class="span-price" data-id="2">R$15,90</span>
                         <span class="g-price">250g</span>
                         <button class="btn-card" data-price="15.90" data-id="2">Adicionar</button>
                     </div>
@@ -117,59 +123,68 @@
                         <img src="./assets/IMG/comida3.avif" alt="">
                         <h2 class="color-laranja">Frango grelhado</h2>
                         <p class="text-md">arroz integral e creme de milho</p>
-                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span class="span-price" data-id="3" >R$15,90</span> 
+                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$18,90</span> <span
+                            class="span-price" data-id="3">R$15,90</span>
                         <span class="g-price">250g</span>
                         <button class="btn-card" data-price="15.90" data-id="3">Adicionar</button>
                     </div>
                 </div>
-                </div>
             </div>
+        </div>
         </div>
     </section>
     <main>
-     <section class="max-width bg" id="menu">
-        <div class="container">
-            <div class="content">
-                <div class="titulo">
-                    <span class="text-title color-laranja">Marmitas</span>
-                    <h2 class="text-md color-cinza-1">mais vendidas</h2><br><br><br><br><br>
-                    <div class="down">
-                        <div class="box">
-                        <img src="./assets/IMG/comida4.avif" alt="">
-                        <h2 class="color-laranja">Carne moída</h2>
-                        <p class="text-md">arroz integral e feijão carioca</p>
-                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span> <span class="span-price" data-id="4" >R$18,90</span> 
-                        <span class="g-price">250g</span>
-                        <button class="btn-card" data-price="15.90" data-id="4">Adicionar</button>
-                    </div>
+        <section class="max-width bg" id="menu">
+            <div class="container">
+                <div class="content">
+                    <div class="titulo">
+                        <span class="text-title color-laranja">Marmitas</span>
+                        <h2 class="text-md color-cinza-1">mais vendidas</h2><br><br><br><br><br>
+                        <div class="down">
+                            <div class="box">
+                                <img src="./assets/IMG/comida4.avif" alt="">
+                                <h2 class="color-laranja">Carne moída</h2>
+                                <p class="text-md">arroz integral e feijão carioca</p>
+                                <span
+                                    style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span>
+                                <span class="span-price" data-id="4">R$18,90</span>
+                                <span class="g-price">250g</span>
+                                <button class="btn-card" data-price="15.90" data-id="4">Adicionar</button>
+                            </div>
 
-                    <div class="box">
-                        <img src="./assets/IMG/comida5.avif" alt="">
-                        <h2 class="color-laranja">Carne moída</h2>
-                        <p class="text-md">arroz integral e purê de batata</p>
-                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span> <span class="span-price" data-id="5" >R$18,90</span> 
-                        <span class="g-price">250g</span>
-                        <button class="btn-card" data-price="15.90" data-id="5">Adicionar</button>
-                    </div>
+                            <div class="box">
+                                <img src="./assets/IMG/comida5.avif" alt="">
+                                <h2 class="color-laranja">Carne moída</h2>
+                                <p class="text-md">arroz integral e purê de batata</p>
+                                <span
+                                    style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span>
+                                <span class="span-price" data-id="5">R$18,90</span>
+                                <span class="g-price">250g</span>
+                                <button class="btn-card" data-price="15.90" data-id="5">Adicionar</button>
+                            </div>
 
-                    <div class="box">
-                        <img src="./assets/IMG/comida6.avif" alt="">
-                        <h2 class="color-laranja">Estrogonofe</h2>
-                        <p class="text-md">De frango com arroz branco e batata assada</p>
-                        <span style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span> <span class="span-price" data-id="6" >R$18,90</span> 
-                        <span class="g-price">250g</span>
-                        <button class="btn-card" data-price="15.90" data-id="6">Adicionar</button>
-                    </div>
-                </div>
-    </section>   
+                            <div class="box">
+                                <img src="./assets/IMG/comida6.avif" alt="">
+                                <h2 class="color-laranja">Estrogonofe</h2>
+                                <p class="text-md">De frango com arroz branco e batata assada</p>
+                                <span
+                                    style="text-decoration: line-through; color: #666; font-size: 18px;">R$21,90</span>
+                                <span class="span-price" data-id="6">R$18,90</span>
+                                <span class="g-price">250g</span>
+                                <button class="btn-card" data-price="15.90" data-id="6">Adicionar</button>
+                            </div>
+                        </div>
+        </section>
     </main>
-    
+
 
     <footer>
         <div class="footer-container">
             <div class="footer-column">
                 <h3 id="footerh3">Empresa Diet Ballance</h3>
-                <p>Somos uma empresa especializada na comercialização de marmitas saudáveis, com o propósito de promover uma rotina alimentar mais saudável para a população, contribuindo para uma maior longevidade e qualidade de vida.</p>
+                <p>Somos uma empresa especializada na comercialização de marmitas saudáveis, com o propósito de promover
+                    uma rotina alimentar mais saudável para a população, contribuindo para uma maior longevidade e
+                    qualidade de vida.</p>
             </div>
             <div class="footer-column">
                 <h3>Links Úteis</h3>
@@ -190,9 +205,11 @@
             <p>&copy; 2024 Empresa Diet Ballance. Todos os direitos reservados.</p>
         </div>
     </footer>
-    
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./assets/JS/main.js"></script>
 </body>
+
 </html>
