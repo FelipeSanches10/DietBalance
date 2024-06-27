@@ -65,7 +65,7 @@ header {
 }
 
 #back-to-top {
-    position: fixed;
+    position:fixed;
     bottom: 2px;
     right: 10px;
     padding: 15px 25px;
@@ -270,7 +270,7 @@ img{
     padding-left: 60px;
     padding-right: 60px;
 }
-.btn{
+.btn2{
     
     padding: 5px;
     padding-left: 30px;
@@ -281,7 +281,7 @@ img{
     color: white;
     font-size: 17px;
 }
-.btn:hover{
+.btn2:hover{
     border: 1px solid #26BA2C;
     background: #fff;
     color: #26BA2C;
