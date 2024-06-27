@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/style2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Cardápio</title>
 </head>
 
 
@@ -13,7 +14,9 @@
     <header class="max-width bg" id="home">
         <div class="container">
             <div class="menu">
-                <div><a href="index.html"><img class="logo" src="./assets/IMG/OIG3.VJ.S6d.jfif-fotor-2024062521151 (1).png" alt=""></a></div>
+                <div>
+                    <a href="index.html"><img class="logo" src="./assets/IMG/OIG3.VJ.S6d.jfif-fotor-2024062521151 (1).png" alt=""></a>
+                </div>
                 <div class="desktop-menu">
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
@@ -23,9 +26,9 @@
                     </ul>
                 </div>
 
-                <div class="mobile-menu" onclick="myFunction()">
-                    <i class="fa-solid fa-bars"></i>
-                    <ul id="myLinks">
+                <div class="mobile-menu">
+                    <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+                    <ul id="myLinks" style="display: none;">
                         <li><a href="./index.html">Inicio</a></li>
                         <li><a href="./index2.html">Cardápio</a></li>
                         <li><a href="./index3.html">Planos</a></li>
@@ -33,7 +36,11 @@
                     </ul>
                 </div>
             </div>
+        </div>
     </header>
+    
+    
+    <button id="back-to-top">^</button>
     <main>
         <div id="first-container">
             <div id="h1primeiro">
@@ -360,7 +367,8 @@
             <p>&copy; 2024 Empresa Diet Ballance. Todos os direitos reservados.</p>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/JS/main.js"></script>
 </body>
 
 </html>

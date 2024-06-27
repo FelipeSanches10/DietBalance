@@ -43,11 +43,6 @@ document.querySelectorAll('.btn-card').forEach(button => {
 });
 
 
-// Swal.fire({
-//   title: "Perfeito",
-//   text: "Seu pedido foi confirmado",
-//   icon: "success"
-// });
 
 
 

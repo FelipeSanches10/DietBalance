@@ -101,6 +101,16 @@ header {
     color: #fa5e00;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
+    padding: 15px 25px;
+    border-radius: 100%;
+    background: #2b2b2b;
+    color: white;
+}
+
 .card-container {
     margin: auto;
     display: grid; 
@@ -155,7 +165,7 @@ main{
 }
 #first-container{
     background-color: #193B3A;
-    width: 55%;
+    width: 65%;
     border-radius: 50px;
     box-shadow: 10px 10px 20px #193B3A;  
 }       
@@ -337,6 +347,10 @@ footer {
         grid-template-columns: 1fr;
         padding: 10px; 
         width: 90%;
+    }
+
+    header ul li {
+        display: none;
     }
     #first-container {
         width: 90%; 
