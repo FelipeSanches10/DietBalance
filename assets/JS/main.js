@@ -14,6 +14,7 @@ function myFunction() {
   }
 }
 
+
 document.querySelectorAll('.btn-card').forEach(button => {
   button.addEventListener('click', event => {
       const itemId = event.target.getAttribute('data-id');
