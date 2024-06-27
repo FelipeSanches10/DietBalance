@@ -107,7 +107,7 @@ header {
     right: 10px;
     padding: 15px 25px;
     border-radius: 100%;
-    background: #dcdd99;
+    background: #F5EAD3;
     border: #193B3A solid;
     color: #193B3A;
 }
@@ -188,13 +188,14 @@ footer {
     background-color: #193B3A;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .footer-column {
@@ -202,9 +203,10 @@ footer {
     padding: 0 20px;
     text-align: left;
     padding-left: 240px;
+    
 }
 #footerh3{
-    padding-left: 18px;
+    padding-left: 38px;
 }
 .footer-column h3 {
     color: #fff;
@@ -212,18 +214,20 @@ footer {
     margin-bottom: 10px;
 }
 #footerh3pt2{
-    padding-left: 18px;
+    padding-left: 35px;
+}
+.footer-column p{
+    font-size: 16px;
+    color: #7b7d8d;
 }
 .footer-column ul {
     list-style-type: none;
-    padding: 0;
-    text-decoration: none;
+    padding: 0;   
 }
-
-.footer-column ul li {
+.footer-column ul li a{
     margin-bottom: 8px;
+    color: white;
 }
-
 .footer-bottom {
     background-color: #193B3A;
     padding: 10px 0;

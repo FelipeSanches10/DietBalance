@@ -70,7 +70,7 @@ header {
     right: 10px;
     padding: 15px 25px;
     border-radius: 100%;
-    background: #dcdd99;
+    background: #F5EAD3;
     border: #193B3A solid;
     color: #193B3A;
 }
@@ -316,14 +316,19 @@ footer {
 #footerh3pt2{
     padding-left: 18px;
 }
+.footer-column p{
+    font-size: 16px;
+    color: #7b7d8d;
+}
 .footer-column ul {
     list-style-type: none;
     padding: 0;
     text-decoration: none;
 }
 
-.footer-column ul li {
+.footer-column ul li a{
     margin-bottom: 8px;
+    color: white;
 }
 
 .footer-bottom {

@@ -239,9 +239,9 @@ button:hover {
     right: 10px;
     padding: 15px 25px;
     border-radius: 100%;
-    background: #dcdd99;
+    background: #193B3A ;
     border: #193B3A solid;
-    color: #193B3A;
+    color: #ffffff;
 }
 
 body::-webkit-scrollbar {
@@ -453,14 +453,19 @@ footer {
 #footerh3pt2{
     padding-left: 18px;
 }
+.footer-column p{
+    color: #7b7d8d;
+    font-size: 16px;
+}
 .footer-column ul {
     list-style-type: none;
     padding: 0;
     text-decoration: none;
 }
 
-.footer-column ul li {
+.footer-column ul li a{
     margin-bottom: 8px;
+    color: white;
 }
 
 .footer-bottom {

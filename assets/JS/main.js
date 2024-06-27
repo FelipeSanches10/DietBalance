@@ -42,7 +42,33 @@ document.querySelectorAll('.btn-card').forEach(button => {
      
   });
 });
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', event => {
+      const itemId = event.target.getAttribute('data-id');
+      const itemPrice = parseFloat(event.target.getAttribute('data-price'));
+      let quantity = parseInt(prompt("Quantas unidades você deseja adicionar?"), 10);
 
+      if (!isNaN(quantity) && quantity > 0) {
+          const totalPrice = itemPrice * quantity;
+          document.querySelector(`.preco[data-id="${itemId}"]`).innerText = `R$${totalPrice.toFixed(2)}`;
+          
+    Swal.fire({
+      title: "Perfeito",
+      text: "Seu pedido foi confirmado",
+      icon: "success"
+});
+
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Ops...",
+          text: "Por favor, insira um número válido de unidades."
+        });
+      }
+
+     
+  });
+});
 
 
 
