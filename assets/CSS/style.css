@@ -478,7 +478,7 @@ footer {
   color: #fff;
   font-size: 14px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -490,11 +490,13 @@ footer {
     padding: 0 15px;
     text-align: center;
   }
-
-  .footer-column h3 {
-    padding-left: 0; /* Remover o padding esquerdo nos títulos */
+  .footer-column ul li {
+    padding-right: 50px;
   }
-}
+  #footerh3pt3 {
+    padding-right: 40px;
+  }
+}      
 
 @media screen and (max-width: 922px) {
   .text-gd {
