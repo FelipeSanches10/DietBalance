@@ -170,7 +170,7 @@ main {
 }
 #first-container {
   background-color: #193b3a;
-  width: 65%;
+  width: 75%;
   border-radius: 50px;
   box-shadow: 10px 10px 20px #193b3a;
 }
@@ -260,19 +260,6 @@ footer {
   background-color: #193b3a;
   color: #fff;
   text-align: center;
-  padding: 20px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-footer {
-  background-color: #193b3a;
-  color: #fff;
-  text-align: center;
   padding: 20px 0;
 }
 
@@ -286,10 +273,10 @@ footer {
   flex: 1;
   padding: 0 20px;
   text-align: left;
-  padding-left: 240px;
+  padding-left: 100px;
 }
 #footerh3 {
-  padding-left: 18px;
+  padding-left: 19px;
 }
 .footer-column h3 {
   color: #fff;
@@ -297,16 +284,21 @@ footer {
   margin-bottom: 10px;
 }
 #footerh3pt2 {
-  padding-left: 18px;
+  padding-left: 20px;
+}
+#footerh3pt3 {
+  padding-left: 60px;
+}
+.footer-column p {
+  color: #7b7d8d;
+  font-size: 16px;
 }
 .footer-column ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 60px;
   text-decoration: none;
 }
-.footer-column p {
-  font-size: 16px;
-}
+
 .footer-column ul li a {
   margin-bottom: 8px;
   color: white;
@@ -344,16 +336,23 @@ footer {
   .card-container2,
   .card-container3,
   .card-container4 {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 50px;
+    padding-right: 100px;
   }
 
-  #first-container {
+  .h1 {
+    font-size: 1em;
+    padding-bottom: 40px; 
+  }
+  #h1primeiro{
+    padding-bottom: 40px;
+  }
+  .card.remove-on-small{
+    display: none;
+  }
+  .first-container{
     width: 80%;
-  }
-
-  #h1 {
-    font-size: 1.5em;
   }
 }
 

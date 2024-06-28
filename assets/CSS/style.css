@@ -437,10 +437,10 @@ footer {
   flex: 1;
   padding: 0 20px;
   text-align: left;
-  padding-left: 240px;
+  padding-left: 100px;
 }
 #footerh3 {
-  padding-left: 18px;
+  padding-left: 1px;
 }
 .footer-column h3 {
   color: #fff;
@@ -448,7 +448,10 @@ footer {
   margin-bottom: 10px;
 }
 #footerh3pt2 {
-  padding-left: 18px;
+  padding-left: 2px;
+}
+#footerh3pt3 {
+  padding-left: 60px;
 }
 .footer-column p {
   color: #7b7d8d;
@@ -456,7 +459,7 @@ footer {
 }
 .footer-column ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 60px;
   text-decoration: none;
 }
 

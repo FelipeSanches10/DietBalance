@@ -287,83 +287,87 @@ img{
     color: #26BA2C;
 }
 footer {
-    background-color: #193B3A;
+    background-color: #193b3a;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-.footer-container {
+  }
+  
+  .footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.footer-column {
+  }
+  
+  .footer-column {
     flex: 1;
     padding: 0 20px;
     text-align: left;
-    padding-left: 240px;
-}
-#footerh3{
-    padding-left: 18px;
-}
-.footer-column h3 {
+    padding-left: 100px;
+  }
+  #footerh3 {
+    padding-left: 8px;
+  }
+  .footer-column h3 {
     color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
-}
-#footerh3pt2{
-    padding-left: 18px;
-}
-.footer-column p{
-    font-size: 16px;
+  }
+  #footerh3pt2 {
+    padding-left: 8px;
+  }
+  #footerh3pt3 {
+    padding-left: 60px;
+  }
+  .footer-column p {
     color: #7b7d8d;
-}
-.footer-column ul {
+    font-size: 16px;
+  }
+  .footer-column ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 60px;
     text-decoration: none;
-}
-
-.footer-column ul li a{
+  }
+  
+  .footer-column ul li a {
     margin-bottom: 8px;
     color: white;
-}
-
-.footer-bottom {
-    background-color: #193B3A;
+  }
+  
+  .footer-bottom {
+    background-color: #193b3a;
     padding: 10px 0;
-}
-
-.footer-bottom p {
+  }
+  
+  .footer-bottom p {
     margin: 0;
     color: #fff;
     font-size: 14px;
-}
-@media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 768px) {
     .footer-container {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     .footer-column {
-        flex: 1 0 100%;
-        max-width: none;
-        padding: 0 15px;
-        text-align: center;
+      flex: 1 0 100%;
+      max-width: none;
+      padding: 0 15px;
+      text-align: center;
     }
-
+  
     .footer-column h3 {
-        padding-left: 0; /* Remover o padding esquerdo nos títulos */
+      padding-left: 0; /* Remover o padding esquerdo nos títulos */
     }
-}
+  }
 @media screen and (max-width: 1500px) {
     .card-container,
     .card-container2 {
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(1, 1fr);
         grid-template-rows: none;
         padding: 20px;
+        
     }
 
     .card {
@@ -373,14 +377,14 @@ footer {
     }
 
     #first-container {
-        width: 90%;
+        width: 50%;
         padding: 10px;
     }
 
     #h1primeiro,
     #h1segundo {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 16%;
+        margin-right: 7%;
     }
 
     p {
@@ -389,6 +393,20 @@ footer {
 
     #valor {
         font-size: 30px;
+    }
+    li{
+        
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    img{
+        width: 97%;
+        height: 91%;
+        padding-top: 7px;
+    }
+    .logo{
+        width: 5%;
+        height: 10.2%;
     }
 }
 @media screen and (max-width: 520px) {

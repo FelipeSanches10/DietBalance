@@ -187,77 +187,119 @@ p{
     
 }
 footer {
-    background-color: #193B3A;
+    background-color: #193b3a;
     color: #fff;
     text-align: center;
-    padding: 20px;
-}
-
-.footer-container {
+    padding: 20px 0;
+  }
+  
+  .footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-}
-
-.footer-column {
+  }
+  
+  .footer-column {
     flex: 1;
     padding: 0 20px;
     text-align: left;
-    padding-left: 240px;
-    
-}
-#footerh3{
-    padding-left: 38px;
-}
-.footer-column h3 {
+    padding-left: 100px;
+  }
+  #footerh3 {
+    padding-left: 19px;
+  }
+  .footer-column h3 {
     color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
-}
-#footerh3pt2{
-    padding-left: 35px;
-}
-.footer-column p{
-    font-size: 16px;
+  }
+  #footerh3pt2 {
+    padding-left: 20px;
+  }
+  #footerh3pt3 {
+    padding-left: 60px;
+  }
+  .footer-column p {
     color: #7b7d8d;
-}
-.footer-column ul {
+    font-size: 16px;
+  }
+  .footer-column ul {
     list-style-type: none;
-    padding: 0;   
-}
-.footer-column ul li a{
+    padding-left: 60px;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a {
     margin-bottom: 8px;
     color: white;
-}
-.footer-bottom {
-    background-color: #193B3A;
+  }
+  
+  .footer-bottom {
+    background-color: #193b3a;
     padding: 10px 0;
-}
-
-.footer-bottom p {
+  }
+  
+  .footer-bottom p {
     margin: 0;
     color: #fff;
     font-size: 14px;
-}
-
-@media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 768px) {
     .footer-container {
-        flex-direction: column;
-        align-items: center;
-        
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     .footer-column {
-        flex: 1 0 100%;
-        max-width: none;
-        padding: 0 15px;
-        text-align: center;
+      flex: 1 0 100%;
+      max-width: none;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .footer-column h3 {
+      padding-left: 0; /* Remover o padding esquerdo nos títulos */
+    }
+  }
+@media screen and (max-width: 1500px) {
+    .card-container,
+    .card-container2 {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
-    .footer-column h3 {
-        padding-left: 0; 
+    #first-container {
+        width: 80%;
+        padding: 10px;
+        padding-right: 90px;
     }
+
+    .titulo{
+        font-size: 45px;
+        padding-top: 90px;
+    }
+    .card {
+        width: 100%;
+    }
+
+    p {
+        font-size: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    #paragrafo{
+        font-size: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    li {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }   
 }
 @media screen and (max-width: 520px) {
     .card-container,
@@ -313,24 +355,6 @@ footer {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-column {
-        flex: 1 0 100%;
-        max-width: none;
-        padding: 0 15px;
-        text-align: center;
-    }
-
-    .footer-column h3 {
-        padding-left: 0; /* Remover o padding esquerdo nos títulos */
-    }
-}
-
 @media screen and (max-width: 280px) {
     .card-container,
     .card-container2 {
