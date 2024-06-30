@@ -82,7 +82,7 @@ body {
 .call {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .left {
@@ -106,8 +106,8 @@ body {
 }
 
 img {
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
 }
 
@@ -153,8 +153,7 @@ button:hover {
 
 .titulo {
   width: 100%;
-  min-height: 250px;
-  font-size: 24px;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -193,6 +192,10 @@ button:hover {
 .desktop-menu ul li a:hover {
   color: #fa5e00;
   font-weight: 500;
+}
+
+#myLinks {
+  display: none;
 }
 
 .mobile-menu {
@@ -238,9 +241,9 @@ button:hover {
   right: 10px;
   padding: 15px 25px;
   border-radius: 100%;
-  background: #193b3a;
-  border: #193b3a solid;
-  color: #ffffff;
+  background: #fffdd0;
+  border: green solid;
+  color: green;
 }
 
 body::-webkit-scrollbar {
@@ -435,6 +438,7 @@ footer {
 
 .footer-column {
   flex: 1;
+  margin-top: 30px;
   padding: 0 20px;
   text-align: left;
   padding-left: 100px;
@@ -454,7 +458,7 @@ footer {
   padding-left: 60px;
 }
 .footer-column p {
-  color: #7b7d8d;
+  color: #b4dbed;
   font-size: 16px;
 }
 .footer-column ul {
@@ -502,6 +506,7 @@ footer {
   .text-gd {
     font-size: 54px;
   }
+
 
   .text-md {
     font-size: 28px;
@@ -666,4 +671,7 @@ footer {
   #service .box p {
     font-size: 14px;
   }
+  
 }
+
+

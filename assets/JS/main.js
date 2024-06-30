@@ -65,10 +65,16 @@ document.querySelectorAll('.btn').forEach(button => {
           text: "Por favor, insira um número válido de unidades."
         });
       }
-
      
   });
 });
+
+
+
+
+
+
+
 
 
 

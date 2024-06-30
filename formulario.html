@@ -13,7 +13,7 @@
     <section>
         <div id="formulario_pedido">
             <h2>Pedido de compra</h2>
-            <form method="get" action="">
+            <form method="get" action="" onsubmit="finalizarCompra(event)">
                 <fieldset>
                     <legend>Faça seu pedido</legend>
                     <label for="nome">Nome:</label>
@@ -124,7 +124,7 @@
 
                     <label for="cc-expiration">Data de vencimento:</label>
                     <br>
-                    <input type="text" required name="address" placeholder="01/30">
+                    <input type="text" required name="cc-expiration" placeholder="01/30">
 
                     <br><br>
 
@@ -139,6 +139,16 @@
                 </fieldset>
             </form>
         </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function finalizarCompra(event) {
+            event.preventDefault();
+            alert('Compra finalizada');
+        }
+    </script>
 
 </body>
 

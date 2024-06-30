@@ -98,6 +98,11 @@ header {
   color: #fa5e00;
 }
 
+
+#myLinks {
+  display: none;
+}
+
 #back-to-top {
   position: fixed;
   bottom: 2px;
@@ -124,7 +129,7 @@ header {
 
 #first-container {
   background-color: #296260;
-  width: 66%;
+  width: 86%;
   border-radius: 50px;
 }
 main {
@@ -170,7 +175,7 @@ p {
   background-color: #193b3a;
   border-radius: 20px;
   text-align: center;
-  height: 890px;
+  height: 100%;
   width: 900px;
   justify-content: center;
   box-shadow: 10px 10px 20px #193b3a;
@@ -193,6 +198,7 @@ footer {
 
 .footer-column {
   flex: 1;
+  margin-top: 30px;
   padding: 0 20px;
   text-align: left;
   padding-left: 100px;
@@ -212,7 +218,7 @@ footer {
   padding-left: 60px;
 }
 .footer-column p {
-  color: #7b7d8d;
+  color: #b4dbed;
   font-size: 16px;
 }
 .footer-column ul {
