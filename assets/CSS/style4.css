@@ -112,6 +112,7 @@ header {
   background: #f5ead3;
   border: #193b3a solid;
   color: #193b3a;
+  z-index: 1000;
 }
 
 .card-container {
@@ -169,6 +170,10 @@ p {
   background-color: #193b3a;
   border-radius: 40px;
   padding-top: 30px;
+}
+
+h1.titulo {
+  font-size: 36px;
 }
 
 .card {

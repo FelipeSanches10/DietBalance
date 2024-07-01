@@ -78,6 +78,7 @@ header {
     background: #F5EAD3;
     border: #193B3A solid;
     color: #193B3A;
+    z-index: 1000;
 }
 
 .mobile-menu {

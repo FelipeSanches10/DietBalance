@@ -119,6 +119,7 @@ header {
   background: #f5ead3;
   border: #193b3a solid;
   color: #193b3a;
+  z-index: 1000;
 }
 
 .card-container {

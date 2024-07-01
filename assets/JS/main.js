@@ -31,6 +31,17 @@ document.querySelectorAll('.btn-card').forEach(button => {
       icon: "success"
 });
 
+Swal.fire({
+  title: "Deseja finalizar pedido?",
+  showDenyButton: true,
+  confirmButtonText: "Sim",
+  denyButtonText: `Não`
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire("Pedido finalizado!", "", "success");
+  }
+});
+
       } else {
         Swal.fire({
           icon: "error",
@@ -56,7 +67,20 @@ document.querySelectorAll('.btn').forEach(button => {
       title: "Perfeito",
       text: "Seu pedido foi confirmado",
       icon: "success"
+      
 });
+
+Swal.fire({
+  title: "Deseja finalizar pedido?",
+  showDenyButton: true,
+  confirmButtonText: "Sim",
+  denyButtonText: `Não`
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire("Pedido finalizado!", "", "success");
+  }
+});
+
 
       } else {
         Swal.fire({
@@ -65,6 +89,8 @@ document.querySelectorAll('.btn').forEach(button => {
           text: "Por favor, insira um número válido de unidades."
         });
       }
+
+     
      
   });
 });
