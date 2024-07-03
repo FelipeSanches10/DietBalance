@@ -373,18 +373,22 @@ footer {
 @media screen and (max-width: 1500px) {
     .card-container,
     .card-container2 {
-        grid-template-columns:repeat(1, 1fr);
+        grid-template-columns:repeat(2, 1fr);
         grid-template-rows: none;
         padding: 20px;
+        
         
     }
 
     .card {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 10px auto;
+        
     }
-
+    .card-content{
+        width: 100%;
+    }
     #first-container {
         width: 50%;
         padding: 10px;
@@ -404,9 +408,8 @@ footer {
         font-size: 30px;
     }
     li{
+        padding-bottom: 10px;
         
-        padding-bottom: 20px;
-        padding-right: 20px;
     }
     img{
         width: 97%;
