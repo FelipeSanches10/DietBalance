@@ -376,7 +376,7 @@ footer {
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows: none;
         padding: 20px;
-        
+        gap: 30px;
         
     }
 
