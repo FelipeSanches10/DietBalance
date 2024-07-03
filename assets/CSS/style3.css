@@ -377,14 +377,12 @@ footer {
         grid-template-rows: none;
         padding: 20px;
         gap: 30px;
-        
     }
 
     .card {
         width: 100%;
         height: auto;
         margin: 10px auto;
-        
     }
     .card-content{
         width: 100%;
@@ -414,7 +412,7 @@ footer {
     img{
         width: 97%;
         height: 91%;
-        padding-top: 7px;
+
     }
     .logo{
         width: 5%;
